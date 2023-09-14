@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,300&family=Montserrat:ital,wght@1,300&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@500&family=Work+Sans&display=swap');
+.newsletter{
+    background: #fefaf6;
+}
+
+.newsletter .form-control{
+    width: 50px;
+}
+.newsletter .form-control::placeholder{
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+}
+.newsletter #basic-addon2{
+    background: #e36f31;
+}
+
+.h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.newsletter p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}

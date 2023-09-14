@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,300&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@500&display=swap');
+.h1{
+    color: #e36f31;
+}
+.main-btn{
+    width: 180px;
+    border: 1px solid #e36f31;
+    color: #e36f31;
+    background: transparent;
+}
+.icon{
+    color: #e36f31;
+}
+.main-btn:hover{
+    background: #e36f31;
+    color: #fff;
+}
+
+.icon:hover{
+    background: #e36f31;
+    color: #fff;
+}
+.btn{
+    background: #e36f31;
+    color: #fff;
+}
+.icons{
+    color: #fff;
+}
+.btn:hover{
+    width: 200px;
+    border: 1px solid #e36f31;
+    color: #e36f31;
+    background: transparent;
+}
+
+.icons:hover{
+    background: transparent;
+    color: #e36f31;
+}
+.para{
+    font-size: 11px;
+}
+.icon-start{
+    font-size: 10px;
+}
+.div p{
+    font-size: 7px;
+}
+div .DIV{
+    background-color: #f5f5f5;
+   
+    width: 100px;
+    height: 10px;
+}
+div .div{
+   
+    width: 100px;
+    height: 10px;
+}
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+.table{
+    min-width: 700px;
+    width: 100%;
+}
+.anonyme{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+thead tr .th{
+    color: #2A71D5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.td-p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #65635F;
+}
+td .p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+.motif{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #65635F;
+}
+.commentaireBien{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #65635F;
+}
+.commentaire{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #65635F;
+}
+.texte,
+.p-texte{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.paragraphe{
+    font-family: 'Inter', sans-serif;
+}

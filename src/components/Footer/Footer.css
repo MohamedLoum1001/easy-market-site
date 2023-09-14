@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,300&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@500&family=Work+Sans&display=swap');
+.footer{
+    background: #e36f31;
+}
+.footer img{
+    width: 70px;
+}
+.footer .TITRE .tiret{
+    background: #fff;
+    width: 30px;
+    height: 3px;
+}
+.footer hr{
+    color: #fff;
+    
+}
+
+.footer h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.footer h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.footer p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer .li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 37px;
+}
+.footer li{
+    font-family: 'Work', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 37px;
+}
+.footer .div-footer p{
+    font-family: 'Work', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
