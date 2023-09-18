@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,300&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@1,300&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@500&family=Rubik:wght@500&family=Work+Sans&display=swap');
 .sidebar{
-    flex: 1;
-    border-right: 0.5px solid rgb(230, 227, 227);
+    border-right: 1px solid rgb(230, 227, 227);
     min-height: 100vh;
     background-color: white;
 }
@@ -17,19 +16,19 @@
 }
 
 .compte {
-    font-family: "Inter";
+    font-family: "Inter" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19.36px;
     color: #828282;
 }
 
-.li {
+/* .li {
     display: flex;
     align-items: center;
     padding: 5px;
     cursor: pointer;
-}
+} */
 
 .li:hover .compte,
 .li:hover .ICON {
@@ -41,10 +40,20 @@
 }
 
 .deconnexion {
-    font-family: "Montserrat";
+    font-family: "Montserrat" sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 17.07px;
     text-align: center;
     color: #E20613;
+}
+@media only screen and (max-width: 768px) and (min-width: 601px)  {
+    .sidebar{
+        display: none;
+       }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+   .sidebar{
+    display: none;
+   }
 }

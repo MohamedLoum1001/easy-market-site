@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,300&family=Open+Sans&family=Raleway:wght@600&family=Roboto:wght@500&display=swap');
+.crown-titre{
+    font-family: "Rubik" serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 27px;
+}
 .h1{
+    font-family: "Inter" sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0.5%;
     color: #e36f31;
+}
+.h6-titre{
+    font-family: "Montserrat" sans-serif;
+    font-size: 25px;
+    font-weight: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.3%;
+}
+.img{
+    width: 120px;
 }
 .main-btn{
     width: 180px;
@@ -11,33 +32,18 @@
 .icon{
     color: #e36f31;
 }
-.main-btn:hover{
-    background: #e36f31;
-    color: #fff;
-}
 
-.icon:hover{
+
+.BTN{
     background: #e36f31;
-    color: #fff;
-}
-.btn{
-    background: #e36f31;
+    border: none;
+    width: 180px;
     color: #fff;
 }
 .icons{
     color: #fff;
 }
-.btn:hover{
-    width: 200px;
-    border: 1px solid #e36f31;
-    color: #e36f31;
-    background: transparent;
-}
 
-.icons:hover{
-    background: transparent;
-    color: #e36f31;
-}
 .para{
     font-size: 11px;
 }
@@ -121,4 +127,59 @@ td .p{
 }
 .paragraphe{
     font-family: 'Inter', sans-serif;
+}
+@media only screen and (max-width: 1199px) and (min-width: 1025px)  {
+    .crown-titre{
+        font-size: 25px;
+    }
+    .p-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+    .crown-titre{
+        font-size: 25px;
+    }
+    .p-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 601px)  {
+    .crown-titre{
+        font-size: 25px;
+    }
+    .p-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+    .crown-titre{
+        
+        font-size: 25px;
+    }
+    .p-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        width: 100px;
+    }
 }

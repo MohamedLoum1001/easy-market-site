@@ -21,14 +21,15 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="container ">
+      <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3 colonne">
             <Sidebar />
           </div>
-          <div className="col-9">
+          <div className="col-lg-9 col-md-12 d-flex justify-content-center align-items-center">
             <NosProduits />
           </div>
+          
         </div>
       </div>
       <Newsletter />

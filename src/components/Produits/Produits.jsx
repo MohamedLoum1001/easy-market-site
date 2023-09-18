@@ -37,9 +37,9 @@ const Produits = () => {
                                 <div className="card border-0">
                                     <div className="image-wrapper p-2">
                                         <img src={garçon} alt="garçon" className="mx-auto" />
-                                        <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='p text-info'>150 000 fca</p>
+                                        <div className="text-center mb-3 border">
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -48,8 +48,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={chaussure} alt="chaussure" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,8 +58,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={parfum} alt="parfum" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,8 +68,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={parfum1} alt="parfum1" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -84,8 +84,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={ceinture} alt="ceinture" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,8 +94,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={cocacola} alt="cocacola" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,8 +104,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={parfumFemme} alt="parfumFemme" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -114,8 +114,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={sacFille} alt="sacFille" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,8 +129,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={bote} alt="bote" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -139,8 +139,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={montre} alt="chaussure" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -149,8 +149,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={storie} alt="parfum" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -159,8 +159,8 @@ const Produits = () => {
                                     <div className="image-wrapper p-2">
                                         <img src={nike} alt="parfum1" className="mx-auto" />
                                         <div className="text-center mb-3">
-                                            <p className="fw-bold">Cotton shirt regular fit</p>
-                                            <p className='text-dark'>150 000 fca</p>
+                                            <p className="p-texte text-center">Cotton shirt regular fit</p>
+                                            <p className='paragraphe text-center'>150 000 fca</p>
                                         </div>
                                     </div>
                                 </div>

@@ -20,23 +20,31 @@ const Crown = () => {
                     </div>
                 </div>
             </div>
-            <div className="container p-5">
+            <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6">
                         <img src={ContainerGm} alt="homme" className='img-fluid mx-auto' />
+                        <div className="row g-4 my-3 justify-content-center">
+                            <div className='p-image d-flex flex-row'>
+                                <p className='col-lg-4 col-md-4 col-xm-4 p-2'>
+                                    <img src={ContainerGm} alt="homme" className='img mx-auto' />
+                                </p>
 
-                        <div className="row g-5 justify-content-center align-items-center my-3">
-                            {crown.map((image) => (
-                                <div className="col-lg-4 col-md-4 col-sm-4 mx-auto d-flex flex-row justify-content-md-center align-items-md-center ">
-                                    <img src={image.img} alt="homme" className='img-fluid mx-auto' />
-                                </div>
-                            ))}
+                                <p className='col-lg-4 col-md-4 col-xm-4  p-2'>
+                                    <img src={ContainerGm} alt="homme" className='img mx-auto' />
+                                </p>
+
+                                <p className='col-lg-4 col-md-4 col-xm-4  p-2'>
+                                    <img src={ContainerGm} alt="homme" className='img mx-auto' />
+                                </p>
+
+                            </div>
                         </div>
 
                     </div>
                     <div className="col-md-6">
                         <div className='mb-3'>
-                            <h1>Crown Summit Backpack</h1>
+                            <h1 className='crown-titre'>Crown Summit Backpack</h1>
                         </div>
 
                         <div className='mb-3'>
@@ -65,7 +73,7 @@ const Crown = () => {
 
                         <div className='d-flex flex-row align-items-center'>
                             <div>
-                                <h6 className="fw-bold mb-0">Quantité</h6>
+                                <h6 className="h6-titre mb-0">Quantité</h6>
                             </div>
                             <div className='d-flex flex-row align-items-center ms-5 mb-0'>
                                 <div>
@@ -82,10 +90,10 @@ const Crown = () => {
 
                         <div className='d-flex flex-row align-items-center mb-3'>
                             <div>
-                                <h6 className="fw-bold mb-0">Total</h6>
+                                <h6 className="h6-titre mb-0">Total</h6>
                             </div>
                             <div className='d-flex flex-row align-items-center ms-5 me-sm-3 mb-0'>
-                                <h6 className="mb-0">200.000 FCFA</h6>
+                                <h6 className="h6-titre mb-0">200.000 FCFA</h6>
                             </div>
                         </div>
 
@@ -93,8 +101,8 @@ const Crown = () => {
                             <div>
                                 <button className='main-btn p-2 rounded mb-3'>Favoris <AiOutlineHeart className='icon' /></button>
                             </div>
-                            <div className=''>
-                                <button className='btn mb-3'>Ajouter au panier <AiOutlineShoppingCart className='icons' /></button>
+                            <div className='ms-md-1'>
+                                <button className='BTN p-2 rounded mb-3'>Ajouter au panier <AiOutlineShoppingCart className='icons' /></button>
                             </div>
                         </div>
 
@@ -206,7 +214,7 @@ const Crown = () => {
                                         </td>
 
                                         <td>
-                                        <p className='p mb-0'>4/5</p>
+                                            <p className='p mb-0'>4/5</p>
                                             <div className='mb-0'>
                                                 <AiFillStar className='text-warning icon-start' />
                                                 <AiFillStar className='text-warning icon-start' />
@@ -272,8 +280,8 @@ const Crown = () => {
                                     <img src={image.img} alt="image" className='image-cartes mx-auto' />
                                 </div>
                                 <div className='d-flex flex-column align-items-start p-4 ms-sm-3'>
-                                    <p className='p-texte fw-bold text-center'>{image.title}</p>
-                                    <p className='para text-center fs-6'>{image.texte}</p>
+                                    <p className='p-texte text-center'>{image.title}</p>
+                                    <p className='paragraphe text-center'>{image.texte}</p>
                                 </div>
                             </div>
                         ))}

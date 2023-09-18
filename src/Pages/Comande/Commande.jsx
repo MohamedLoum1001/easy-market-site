@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import SideBarCompte from '../../components/SideBarCompte/SideBarCompte';
 import { AiFillDelete } from "react-icons/ai";
 import { IoEyeSharp } from "react-icons/io5";
+import SidebarFooter from '../../components/SidebarFooter/SidebarFooter';
 const Commande = () => {
     return (
         <div>
@@ -14,15 +15,15 @@ const Commande = () => {
             <NavBar />
             <div className="container">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-lg-2">
                         <SideBarCompte />
                     </div>
-                    <div className="col-10 d-flex flex-column">
+                    <div className="col-lg-10 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
                         <div className='title'>
                             <h1>Mes commandes</h1>
                         </div>
                         <div className="my-3">
-                            <div className="containter p-4 my-3">
+                            <div className="container my-3">
                                 <div className="row justify-content-center">
                                     <div className="col-12">
                                         <div className="row">
@@ -117,6 +118,12 @@ const Commande = () => {
 
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="row justify-content-center">
+                    <div className="col-12">
+                        <SidebarFooter />
                     </div>
                 </div>
             </div>

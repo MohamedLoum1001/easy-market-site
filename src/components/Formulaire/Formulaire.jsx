@@ -69,7 +69,7 @@ const Formulaire = () => {
 
                 </form>
                 <div className='btn-total d-flex justify-content-start align-items-center mb-3'>
-                    <Link to="/compte" className='button text-white border-0 text-decoration-none w-25 text-center'>ENREGISTRER</Link>
+                    <Link to="/compte" className='button text-white border-0 text-decoration-none w-50 text-center'>ENREGISTRER</Link>
                 </div>
             </div>
         </div>

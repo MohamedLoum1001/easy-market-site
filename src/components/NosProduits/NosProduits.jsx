@@ -5,16 +5,16 @@ import './NosProd.css';
 const NosProduits = () => {
     return (
         <div className='container'>
-            <div className="row">
+            <div className="row justify-content-center align-items-center">
                 {prod.map((image) => (
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div className="">
-                            <div className='d-flex flex-column align-items-start'>
-                                <img src={image.img} alt="image" className='image-cartes mx-auto' />
+                        <div className="d-flex flex-column justify-content-center align-items-center">
+                            <div className=''>
+                                <img src={image.img} alt="image" className='img-fluid image-cartes mx-auto' />
                             </div>
-                            <div className='d-flex flex-column align-items-start'>
-                                <p className='p fw-bold'>{image.title}</p>
-                                <p>{image.texte}</p>
+                            <div className="text-center mb-3 my-3">
+                                <p className="p-texte text-center">{image.title}</p>
+                                <p className='paragraphe text-center'>{image.texte}</p>
                             </div>
                         </div>
                     </div>

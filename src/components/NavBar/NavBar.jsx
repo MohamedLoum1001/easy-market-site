@@ -32,7 +32,7 @@ const NavBar = () => {
 
                         <div className='d-flex flex-row justify-content-center align-items-center'>
                             <AiOutlineHeart className='Icons mb-0' />
-                            <Link to="/" className='text-decoration-none  mb-0'>
+                            <Link to="/favoris" className='text-decoration-none  mb-0'>
                                 <p className='nav-p text-dark mb-0'>Favoris</p>
                             </Link>
                         </div>

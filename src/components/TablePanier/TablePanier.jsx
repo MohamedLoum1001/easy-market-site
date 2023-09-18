@@ -11,7 +11,7 @@ const TablePanier = () => {
             <div className="row justify-content-center">
                 <div className="col">
                     <div className="row">
-                        <div className='table-responsive resp'>
+                        <div className='table-responsive resp my-md-4'>
                             <table className="table">
                                 <thead>
                                     <tr className='tableau'>

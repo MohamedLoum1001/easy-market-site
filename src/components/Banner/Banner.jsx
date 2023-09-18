@@ -7,8 +7,8 @@ const Banner = () => {
     return (
         <section className='banner'>
             <div className='container p-5'>
-                <div className="row align-items-center">
-                    <div className="col-md-7 ">
+                <div className="row justify-content-center align-items-center">
+                    <div className="col-md-7 col-sm-12 mb-3">
                         <div>
                             <h1 className='text-white'>Votre site e-commerce <br /> <span className='text-white fw-bold'>personnalisable</span></h1>
                             <p className='text-white'>Vendez facilement votre produit grâce à Easy market</p>
@@ -20,7 +20,7 @@ const Banner = () => {
 
                     </div>
 
-                    <div className="col-md-5">
+                    <div className="col-md-5 col-sm-12  mb-3">
                         <img src={pull} alt="pull-over" className='img-fluid' />
                     </div>
 

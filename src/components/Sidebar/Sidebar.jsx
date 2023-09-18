@@ -3,7 +3,7 @@ import { MdOutlineCancel } from 'react-icons/md';
 
 const Sidebar = () => {
     return (
-        <div className='container d-flex flex-column'>
+        <div className='container  d-flex flex-column'>
             <div>
                 <p className='fs-3 text-secondary'>Catégories</p>
             </div>
